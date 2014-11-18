@@ -1,0 +1,18 @@
+{
+  "name": "japanese-zen-han-convert",
+  "main": "./lib/japanese-zen-han-convert",
+  "version": "0.4.0",
+  "description": "(Japanese Chars) Zenkaku and Hankaku convert mutually.",
+  "activationCommands": {
+    "atom-workspace": [
+      "japanese-zen-han-convert:toHan",
+      "japanese-zen-han-convert:toZen"
+    ]
+  },
+  "repository": "https://github.com/oredon/japanese-zen-han-convert.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {}
+}

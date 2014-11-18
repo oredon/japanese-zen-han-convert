@@ -1,0 +1,35 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Japanese Zen Han Convert'
+      'submenu': [
+        {
+          'label': '全角＝＞半角'
+          'command': 'japanese-zen-han-convert:toHan'
+        }
+        {
+          'label': '半角＝＞全角'
+          'command': 'japanese-zen-han-convert:toZen'
+        }
+      ]
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Japanese Zen Han Convert'
+      'submenu': [
+        {
+          'label': '全角＝＞半角'
+          'command': 'japanese-zen-han-convert:toHan'
+        }
+        {
+          'label': '半角＝＞全角'
+          'command': 'japanese-zen-han-convert:toZen'
+        }
+      ]
+    ]
+  }
+]
