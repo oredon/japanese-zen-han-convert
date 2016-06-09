@@ -1,7 +1,7 @@
 {
   "name": "japanese-zen-han-convert",
   "main": "./lib/japanese-zen-han-convert",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "(Japanese Chars) Zenkaku and Hankaku convert mutually.",
   "activationCommands": {
     "atom-workspace": [
